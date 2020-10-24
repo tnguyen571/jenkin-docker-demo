@@ -25,7 +25,7 @@ public class helloword {
     }
     @GetMapping("/")
     public String sayHello() {
-        return String.format("Hello %s!", "Change my request configure message");
+        return String.format("Hello %s!", "Change my request configure message change account");
     }
 
 }
